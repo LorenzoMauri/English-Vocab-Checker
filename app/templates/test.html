@@ -18,7 +18,7 @@
 <div>
     <form action="/check", method="POST">
         <br>
-        {%for idx in range(sample_size)%}
+        {%for idx in result%}
             <input style="width: 25%" type = "text" class="fname" name="fname" value="{{idx}}"></li><br>
         {%endfor%}
         <br>
